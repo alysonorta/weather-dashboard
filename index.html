@@ -20,8 +20,8 @@
         <div class="tile is-4 is-vertical is-parent">
           <div class="tile is-child box">
             <p class="title">Search for a City:</p>
-            <div class="column is-three-quarters"><input class="input" type="text" placeholder="Columbus"></div>
-            <button class="button">Search</button>
+            <div class="column is-three-quarters"><input class="input" id= "searchForCity" type="text" placeholder="Columbus"></div>
+            <button class="button" id="button">Search</button>
           </div>
           <div class="tile is-child box">
             <p class="title">Previous Searches:</p>
@@ -33,9 +33,13 @@
         <div class="tile is-parent">
           <div class="tile is-child box">
             <p class="title">Weather Output</p>
+            <span id="responseInfo"></span>
            </div>
         </div>
       </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="./Assets/js/script.js"></script>
 
 </body>
 </html>
